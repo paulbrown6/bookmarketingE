@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/frame_7_text_1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:textIsSelectable="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/frame_7_text_2" />
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/frame_7_text_3"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView85"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:textIsSelectable="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="1. Наглядность представления информации при помощи графиков и таблиц  \n2. Снижение расходов на привлечение посетителей \n3. Автоматизация процессов \n4. Увеличение конверсии и дохода с клиента " />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/ris18" />
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView86"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/frame_7_text_4"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:textIsSelectable="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="1. Яндекс метрика – крайне полезная система веб-аналитики - https://metrika.yandex.ru  \n2. Google Analytics  - аналог яндекс метрики - https://analytics.google.com   \n3. Система сквозной аналитики - https://roistat.com/ru \n4. Колл-треккинг для отслеживания звонков по каждому из рекламных каналов: яндекс директ, SEO, реклама в соц. сетях - https://yandex.ru/dev/metrika-calltracking/?turbo=true  " />
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/frame_7_text_5"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <TextView android:theme="@style/TextStyle"
+            android:id="@+id/textView89"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:textIsSelectable="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="1. Дашборды в яндекс метрика – https://elama.ru/blog/kak-nastroit-dashbord \n2. Дашборды в google analytics – http://thisisdata.ru/blog/nastroyka " />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/ris19" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

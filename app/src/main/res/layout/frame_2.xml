@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/frame_2_title"
+                android:textIsSelectable="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_1"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_2"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris2" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_3"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Изучаем ассортимент товаров (услуг)\n2. Цены и товары-локомотивы\n3. Дополнительные товары, сервисы\n4. Региональные представительства (например доставка по всей по всей Рф)\n5. Способы оплаты, доставка, гарантии\n6. Отзывы, как оформлены (фото, видео-отзывы, ссылки на профайлы в соц. сетях)\n7. Наличие дополнительных сервисов (калькуляторов и т.п.)\n8. Рассрочки, акции"
+                android:textIsSelectable="true"
+                tools:ignore="HardcodedText" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_4"
+                android:textIsSelectable="true"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Ассортимент: дома, бани, гаражи, беседки из каркаса и клееного бруса
+            \n 2. Цены на дома от 600 000 руб, товары-локомотивы обычно располагаются на первых местах в каталоге - https://www.terem-pro.ru/catalog/karkasnye Боярин: от 2 600 000 руб
+            \n 3. Дополнительные услуги: достройка и реконструкция
+            \n 4. Региональные представительства: около 15 городов
+            \n 5. Оплата наличными, картой, гарантия до 25 лет
+            \n 6. Отзывы – https://www.terem-pro.ru/about/otzyvy  Видео-отзывы - https://www.terem-pro.ru/reviews
+            \n 7. Прайс-лист на сайте, постройка дома по вашему проекту и наличие офлайн выставки объектов
+            \n 8. Наличие рассрочек и акций
+            "
+                android:textIsSelectable="true"
+                tools:ignore="HardcodedText" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_5"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris3" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_6"
+                android:textIsSelectable="true"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Ассортимент: квадрокоптеры, машины, вертолеты, танки, самолеты, роботы, конструкторы
+\n2. Цены на квадрокоптеры от 1000 руб, машинки от 3700 руб
+\n3. Региональные представительства: доставка по всей России, магазин в Москве
+\n4. Оплата наличными, картой, гарантия 1 год
+\n5. Отзывы расположены в правом сайдбаре - https://rc-today.ru/otzyvy
+\n6. Наличие рассрочек и акций"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_7"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris4" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_8"
+                android:textIsSelectable="true"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Ассортимент: маникюр, педикюр, визаж, брови \n2. Цены от 1700 руб за маникюр \n3. Региональные представительства: услуги только по Москве \n4. Оплата наличными, картой, гарантия 4 дня \n5. Много фотографий выполненных работ   "
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_9"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_10"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris5" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_11"
+                android:textIsSelectable="true"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_12"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_13"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. https://tilda.cc/ru \n2. https://ru.wix.com \n3. https://www.insales.ru \n4. https://www.ecwid.ru"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_14"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris6" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_15"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_16"
+                android:textIsSelectable="true"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Установите на сайт яндекс метрику https://metrika.yandex.ru  \n2. Создайте цели: отправка заявки, клик в телефон и т.д. Подробное видео о настройке целей - https://www.youtube.com/watch?v=8PB8XWZ13E0  \n3. Подключите колл-треккинг для отслеживания звонков по каждому из рекламных каналов: яндекс директ, SEO, реклама в соц. сетях - https://yandex.ru/dev/metrika-calltracking/?turbo=true Или же используйте встроенный в метрику целевой звонок - https://metrika.yandex.ru/calls"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_17"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris7" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_18"
+                android:textIsSelectable="true"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_19"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_20"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_21"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_22"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_23"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. https://elama.ru (бесплатная настройка) \n2. https://www.fl.ru \n3. https://www.weblancer.net  "
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_24"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_25"
+                android:textIsSelectable="true" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_2_text_26"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris8" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

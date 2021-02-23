@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/frame_5_text_1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_5_text_2" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Составьте список задач: продажи, узнаваемость бренда \n2. В каких соц. сетях предположительно находится ваша аудитория: инстаграм, вконтакте, одноклассники \n3. Создайте профайлы в выбранных соц. сетях и минимально заполните \n4. Найдите и изучите профайлы конкурентов и изучите количество лайков, комментариев, частоты публикаций контента \n5. Определитесь с типом контента и частотой публикаций материалов \n6. Подберите темы публикаций не месяц и составьте контент-план \n7. Запустите рекламу в соц. сетях, используя аудитории конкурентов \n8. Проводите конкурсы, делитесь промо-кодами \n9. Каждые 2 недели оценивайте метрики по росту подписчиков, лайков, комментариев, активностям, использованию промо-кодов " />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_5_text_3" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Нужно выбрать 1-2 тематики, заполнить профайл \n2. Сделать 10-20 публикаций \n3. Запустить конкурс с бесплатным подарком и рекламу на данную публикацию \n4. Работа с блогерами, покупка платной рекламы, проведение конкурсов, с целью роста подписчиков, лайков, комментариев, активности " />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris12" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_5_text_4" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. Определение целевой аудитории; \n2. Контент-план (определение типа контента и частоты публикаций) \n3. Реклама, конкуренсы \n4. Реклама в группах, у блоггеров \n Оценка эффективности и корректировка  " />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_5_text_5" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris13" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

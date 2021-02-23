@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/frame_4_text_1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_4_text_2" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris11" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_4_text_3" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_4_text_4" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. https://elama.ru (бесплатная настройка от агентства) \n2. https://kwork.ru \n3. https://www.fl.ru \n4. https://www.weblancer.net  " />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_4_text_5" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. https://www.youtube.com/watch?v=UYbwsWSCW4E \n2. https://www.youtube.com/watch?v=gPwRG46vJm4 \n3. https://www.youtube.com/c/ElamaRu/search?query=%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82 " />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/frame_4_text_6" />
+
+            <TextView android:theme="@style/TextStyle"
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:lineSpacingMultiplier="1.2"
+                android:text="1. https://convertmonster.ru/yandex-direct  \n2. https://ppc.world/courses \n3. https://netology.ru/programs/context-target \n4. https://skillbox.ru/course/profession-context " />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
