@@ -12,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.pb.app.bookmarketingE.MainActivity;
 import com.pb.app.bookmarketingE.R;
 import com.pb.app.bookmarketingE.data.favorite.FavoriteEntity;
 import com.pb.app.bookmarketingE.ui.adapters.AdapterContent;

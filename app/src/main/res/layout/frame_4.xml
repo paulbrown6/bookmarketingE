@@ -82,7 +82,9 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://elama.ru (бесплатная настройка от агентства) \n2. https://kwork.ru \n3. https://www.fl.ru \n4. https://www.weblancer.net  " />
+                android:text="1. https://elama.global (free setup)
+                \n2. https://www.upwork.com
+                \n3. https://www.freelancer.com" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView65"
@@ -106,7 +108,9 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://www.youtube.com/watch?v=UYbwsWSCW4E \n2. https://www.youtube.com/watch?v=gPwRG46vJm4 \n3. https://www.youtube.com/c/ElamaRu/search?query=%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82 " />
+                android:text="1. https://www.youtube.com/watch?v=WmepvHQOHXg
+                \n2. https://www.youtube.com/watch?v=Cp22fC3v6o4
+                \n3. https://www.youtube.com/watch?v=aqzR2Ki2Ka4" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView67"
@@ -130,7 +134,9 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://convertmonster.ru/yandex-direct  \n2. https://ppc.world/courses \n3. https://netology.ru/programs/context-target \n4. https://skillbox.ru/course/profession-context " />
+                android:text="1. https://ppc.world/courses
+                \n2. https://netology.ru/programs/context-target
+                \n3. https://skillbox.ru/course/profession-context" />
 
         </LinearLayout>
     </ScrollView>

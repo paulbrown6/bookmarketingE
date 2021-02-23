@@ -1,106 +1,91 @@
 <resources>
-    <string name="app_name">Интернет-маркетинг</string>
+    <string name="app_name">Digital-marketing</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
-    <string name="nav_header_title">Интернет-маркетинг</string>
+    <string name="nav_header_title">Digital-marketing</string>
     <string name="nav_header_subtitle"> </string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="menu_content">Содержание</string>
-    <string name="menu_favorite">Избранное</string>
-    <string name="menu_settings">Настройки</string>
-    <string name="menu_share">Поделиться</string>
-    <string name="menu_communicate">Поддержка</string>
-    <string name="content_item_dummy">Содержание</string>
-    <string name="frame_1_title">Что такое интернет-маркетинг?</string>
-    <string name="frame_1_text_1">Интернет-маркетинг — это знания (навыки), которые помогают работать с электронными каналами (SEO, SMM, контекстная реклама) и привлекать клиентов из интернета.</string>
-    <string name="frame_1_text_1_1">Где увеличить бюджет, как правильно посчитать доходность каждого потока трафика на сайт.</string>
-    <string name="frame_1_text_2">Сейчас интернет-маркетинг — это о прибыли и принятии решений о той или иной рекламе.</string>
-    <string name="frame_2_title">Как создать бизнес в интернете?</string>
-    <string name="frame_2_text_1">Прежде чем создавать сайт рекомендуется изучить всех конкурентов в интернете в вашем регионе. Например ниша: строительство каркасных домов в Москве. Изучаем конкурентов: прямых и косвенных и выписываем преимущества и недостатки.</string>
-    <string name="frame_2_text_2">Находим сайты-конкуренты с помощью сервиса seranking.com</string>
-    <string name="frame_2_text_3">Переходим на каждый из сайтов и внимательно изучаем уникальное торговое предложение (УТП) и структуру сайтов:</string>
-    <string name="frame_2_text_4">Сокращенный пример анализа компания Теремъ - https://www.terem-pro.ru</string>
-    <string name="frame_2_text_5">Выводы: лучше начинать с одной категории: дома, бани или беседки, обязательно наличие офлайн выставки. Нужно четкое понимание товара-локомотива, цен, гарантий, подключение банков-партнеров для использования рассрочек и акций.</string>
-    <string name="frame_2_text_6">Сокращенный пример анализа компании по продаже радиоуправляемых моделей https://rc-today.ru</string>
-    <string name="frame_2_text_7">Выводы: лучше начинать с 5–10 категорий, чтобы создать больший ассортимент товаров на сайте. Возможно работать по предзаказу для новых моделей, поступающих на рынок. Изучать какие детали к моделям заказывают пользователи. Наличие офлайн магазина вызовет бо́льшее доверие.</string>
-    <string name="frame_2_text_8">Сокращенный пример анализа студии маникюра https://artliknails.ru</string>
-    <string name="frame_2_text_9">Выводы: лучше начинать с оказания одной услуги, например женского маникюра, возможно с выездом на дом. Продавать услуги можно через инстаграм, подключив платную рекламу в инстаграме. Продают в данном секторе фотографии выполненных работ, чем их больше, тем лучше. Рекомендуется постоянно добавлять фото новых работ.</string>
-    <string name="frame_2_text_10">С определенной периодичностью возвращайтесь к пересмотру сайтов-конкурентов для поиска новых фишек, товаров, услуг, гарантий.</string>
-    <string name="frame_2_text_11">Создаем сайт</string>
-    <string name="frame_2_text_12">Создаем сайт визитку или интернет-магазин. Можно начать с конструктора сайтов, это в разы быстрее и дешевле. Сайт уже будет оптимизирован под мобильные устройства, быструю загрузку страниц и оплату пластиковыми карточками.</string>
-    <string name="frame_2_text_13">И вы течение 2–5 дней после разработки получите первые заказы. Сначала купите домен и привяжите к конструктору сайтов:</string>
-    <string name="frame_2_text_14">Привязка домена поспособствует продвижению, запоминаемости и в будущем упростит возможный перенос сайта на собственную CMS. Прикупить домен можно по ссылке https://www.reg.ru/</string>
-    <string name="frame_2_text_15">Добавьте больше отзывов клиентов, кейсов, цифр. Важно вызывать доверие у потенциального клиента и создать ценность продукта.</string>
-    <string name="frame_2_text_16">Настройка целей</string>
-    <string name="frame_2_text_17">В идеале на каждый канал подключаем отдельный телефон с детализаций по запросам из контекстной рекламы, чтобы понимать какие запросы приносят прибыль и периодически пересматривать, и отключать не рабочие.</string>
-    <string name="frame_2_text_18">Тест сайта с помощью контекстной рекламы</string>
-    <string name="frame_2_text_19">После того, как создали сайт или группу в социальных сетях (инстаграме, вконтакте) и настроили цели, затем тестируем её на конверсию с помощью платной рекламы: яндекс директа, рекламы в фейсбуке или вконтакте.</string>
-    <string name="frame_2_text_20">Обязательно подключаем ретаргетинг/ремаркетинг в яндекс директе, google adwords, фейсбуке, вконтакте. Ретаргетингом (преследованием) догоняем пользователей, которые уже посетили наш сайт.</string>
-    <string name="frame_2_text_21">Каждый повторный контакт с нашим сайтом повышает возможность покупки товара или услуги. Ретаргетинг повышает лояльность к вашего бренду и делает дешевле итоговую стоимость заявок/звонков с сайта. Используйте ретаргетинг!</string>
-    <string name="frame_2_text_22">Настройку контекстной рекламы на старте лучше заказать у фри-лансеров. Дальше вы будете постепенно изучать данный инструмент, в том числе общаясь с фри-лансером.</string>
-    <string name="frame_2_text_23">Найти исполнителя можно на сайтах:</string>
-    <string name="frame_2_text_24">Начать можно с рекламного бюджета в 10 000 -30 000 руб в месяц. После месяца тестирования вы должны понимать стоимость заявки по каждому из каналов рекламы и понимать вашу прибыль, окупаемость и сделать выводы.</string>
-    <string name="frame_2_text_25">После общения по телефону с клиентами и изучения заявок с вашего сайта придет понимание целевой аудитории (пол, возраст, демография). Это информация будет полезна для корректировки рекламных компаний в контексте, фейсбуке, вконтакте.</string>
-    <string name="frame_2_text_26">Кроме пола и возраста можно повысить ставки для пользователей мобильных устройств.</string>
-    <string name="frame_3_text_1">SEO (поисковое продвижение)</string>
-    <string name="frame_3_text_2">SEO (поисковое продвижение) – это действия направленные на улучшение видимости сайта в поисковых системах. Главная цель – это трафик из поисковиков яндекса и гугла.</string>
-    <string name="frame_3_text_3">План подготовки сайта при создании:</string>
-    <string name="frame_3_text_4">SEO-аудит</string>
-    <string name="frame_3_text_5">После создания и наполнения сайта контентом рекомендуется произвести seo-аудит. Для корректировки заголовков h1, тайтлов, контента, редиректов, удаления битых ссылок и т.д.</string>
-    <string name="frame_3_text_6">Инструменты:</string>
-    <string name="frame_3_text_7">После аудита вносим корректировки. Правим, если нужно тайтлы, заголовки, контент удаляем битые ссылки, настраиваем редиректы.</string>
-    <string name="frame_3_text_8">Коммерческие факторы</string>
-    <string name="frame_3_text_9">Для коммерческих сайтов важно указание телефонов в видном месте на сайте. Также наличие страницы контакты с указанием телефонов, e-mail, адреса, карты проезда.</string>
-    <string name="frame_3_text_10">Как получить больше трафика?</string>
-    <string name="frame_3_text_11">Создаем блог (информационный раздел) и пишем статьи по нашей тематике. Рекомендуется минимум 30 статей в месяц. Лучше по 100 статей в месяц, заказать можно на бирже - https://www.etxt.biz</string>
-    <string name="frame_3_text_12">Примеры блогов:</string>
-    <string name="frame_3_text_13">Для интернет-магазинов можно дополнительно использовать тегирование для создания дополнительных страниц - https://pgdv.ru/blog/tegirovanie-sajta</string>
-    <string name="frame_3_text_14">Ссылки</string>
-    <string name="frame_3_text_15">После создания и оптимизации проекта рекомендуется 1-2 месяца потестировать его с помощью контекстной рекламы, затем поняв прибыльные категории, товары начинать работать с ссылочной массой.</string>
-    <string name="frame_3_text_16">Покупать ссылки лучше близкой тематики и вашего региона, затем уже смежных тематик и общего региона. Например: агентство недвижимости в Вологде. Покупаем ссылки на всех сайтах Вологды и все что связано с недвижимостью в Вологде и по всей России.</string>
-    <string name="frame_3_text_17">Для покупки используем биржи ссылок с разовой оплатой за ссылку:</string>
-    <string name="frame_3_text_18">Лучше использовать анкоры (текста ссылок) вида:</string>
-    <string name="frame_3_text_19">Это обезопасит вас от анкорного переспама в ссылках. В месяц можно тратить от 10 000 руб на ссылки. Покупая их на главную страницу и категории/подкатегории, которые приносят прибыль и находятся в приделах топ 10, что приблизить их к топ 1.</string>
-    <string name="frame_3_text_20">Для профи изучать ссылочную массу конкурентов можно используя - https://ahrefs.com/.</string>
-    <string name="frame_3_text_21">Проверка позиций и трафика</string>
-    <string name="frame_3_text_22">Каждые 2 недели можно проверять позиции с помощью - https://topvisor.com/.</string>
-    <string name="frame_3_text_23"><![CDATA[Трафик можно смотреть в отчете яндекс метрики: Отчеты -> Стандартные отчеты -> Источники, сводка.]]></string>
-    <string name="frame_4_text_1">Контекстная реклама</string>
-    <string name="frame_4_text_2">Контекстная реклама — это объявления (текстовые, графические, видео), которые показываются пользователям в соответствии с их поисковыми запросами, интересами или поведением в интернете. Контекстная реклама показывается в поисковых системах, на различных сайтах, в мобильных приложениях и т.д.</string>
-    <string name="frame_4_text_3">Если вы впервые планируете запускать контекстную рекламу в яндекс директ, google adwords, то рекомендуем обратиться к профильным специалистам.</string>
-    <string name="frame_4_text_4">Найти исполнителя можно на сайтах:</string>
-    <string name="frame_4_text_5">Самостоятельное изучение яндекс директ:</string>
-    <string name="frame_4_text_6">Курсы о контекстной рекламе:</string>
-    <string name="frame_5_text_1">SMM (продвижение в социальных сетях)</string>
-    <string name="frame_5_text_2">Список шагов для запуска кампаний:</string>
-    <string name="frame_5_text_3">Продвижение в инстаграме:</string>
-    <string name="frame_5_text_4">Продвижение во вконтакте:</string>
-    <string name="frame_5_text_5">Полезные книги по теме</string>
-    <string name="frame_6_text_1">Контент-маркетинг</string>
-    <string name="frame_6_text_2">Контент-маркетинг – это распространение полезного контента, который не является прямой рекламой, но который косвенно убеждает аудиторию принять необходимое решение о покупке товара или услуги.</string>
-    <string name="frame_6_text_3">Способы распространения информационного контента могут быть самыми разнообразными: сайты, блоги, социальные сети, книги, журналы, подкасты, семинары. Ценный контент должен быть уникальным и полезным.</string>
-    <string name="frame_6_text_4">Цели контент-маркетинга</string>
-    <string name="frame_6_text_5">Как запустить успешный контент-маркетинг</string>
-    <string name="frame_6_text_6">Примеры статей</string>
-    <string name="frame_6_text_7">Развлекательный, потенциально популярный контент с цепляющими заголовками</string>
-    <string name="frame_6_text_8">Полезный контент, ГОСТы, СНИПы, правила оформления и т.д.</string>
-    <string name="frame_6_text_9">Обзорный, обучающий контент.</string>
-    <string name="frame_6_text_10">Обзоры, обзоры и еще раз обзоры, топ 10 тех или иных предметов, софта и т.д.</string>
-    <string name="frame_7_text_1">Аналитика</string>
-    <string name="frame_7_text_2">Веб-аналитика — совокупность инструментов по сбору и анализу поведения посетителей на сайте. На основе данных происходит улучшение сайта, изменение рекламных кампаний, планов продаж.</string>
-    <string name="frame_7_text_3">Зачем нужна веб-аналитика?</string>
-    <string name="frame_7_text_4">Системы веб-аналитики</string>
-    <string name="frame_7_text_5">Дашборды систем аналитики</string>
-    <string name="night_mode">Ночной режим</string>
+    <string name="menu_content">Contents</string>
+    <string name="menu_favorite">Favorites</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_communicate">Support</string>
+    <string name="content_item_dummy">Contents</string>
+    <string name="frame_1_title">What is Internet Marketing?</string>
+    <string name="frame_1_text_1">Internet marketing is knowledge (skills) that help to work with electronic channels (SEO, SMM, contextual advertising) and attract customers from the Internet.</string>
+    <string name="frame_1_text_1_1">Where to increase the budget, how to correctly calculate the profitability of each traffic flow to the site.</string>
+    <string name="frame_1_text_2">Now internet marketing is all about profit and making decisions about a particular ad.</string>
+    <string name="frame_2_title">How to create an online business? We study competitors</string>
+    <string name="frame_2_text_1">Before creating a website, it is recommended to study all the competitors on the Internet in your region. For example a niche: radio-controlled toys. We study competitors: direct and indirect and write down the advantages and disadvantages.</string>
+    <string name="frame_2_text_2">Find competing sites using the seranking.com</string>
+    <string name="frame_2_text_3">We go to each of the sites and carefully study the unique selling proposition (USP) and the structure of the sites:</string>
+    <string name="frame_2_text_4">Abbreviated example of an analysis of a company selling RC models https://www.rcplanet.com</string>
+    <string name="frame_2_text_5">Conclusions: it is better to start with 5–10 categories in order to create a wider range of products on the site. It is possible to work on pre-order for new models entering the market. To study what details for models users order. Having an offline store will inspire more confidence.</string>
+    <string name="frame_2_text_11">We create a website</string>
+    <string name="frame_2_text_12">We create a business card website or online store. You can start with a website builder, it is much faster and cheaper. The site will already be optimized for mobile devices, fast loading pages and payment by plastic cards.</string>
+    <string name="frame_2_text_13">And you will receive the first orders within 2–5 days after development. First, buy a domain and link to a website builder:</string>
+    <string name="frame_2_text_14">Domain binding will contribute to promotion, memorability and in the future will simplify the possible transfer of the site to your own CMS. You can buy a domain using the link https://godaddy.com</string>
+    <string name="frame_2_text_15">Add more customer reviews, case studies, numbers. It is important to inspire trust in the prospect and create value for the product.</string>
+    <string name="frame_2_text_16">Setting goals</string>
+    <string name="frame_2_text_17">Ideally, we connect a separate phone for each channel with details on requests from contextual advertising in order to understand which requests are profitable and periodically review and disconnect non-working ones.</string>
+    <string name="frame_2_text_18">Site test using contextual advertising</string>
+    <string name="frame_2_text_19">After we have created a website or a group on social networks (Instagram, Facebook) and set up goals, then we test it for conversion using paid advertising: google adwords, advertising on Facebook or Instagram.</string>
+    <string name="frame_2_text_20">Be sure to include remarketing in google adwords, facebook. We use retmarketing (pursuit) to catch up with users who have already visited our site.</string>
+    <string name="frame_2_text_21">Each repeated contact with our site increases the opportunity to purchase a product or service. Remarketing increases loyalty to your brand and makes the total cost of applications / calls from the site cheaper. Use remarketing!</string>
+    <string name="frame_2_text_22">Setting up contextual advertising at the start is better to order from freelancers. Then you will gradually learn this tool, including communicating with a freelancer.</string>
+    <string name="frame_2_text_23">You can find an freelancer on the sites:</string>
+    <string name="frame_2_text_24">You can start with an advertising budget of $ 200- $ 300 per month. After a month of testing, you should understand the cost of the application for each of the advertising channels and understand your profit, ROI and draw conclusions.</string>
+    <string name="frame_2_text_25">After talking on the phone with clients and studying the applications from your site, an understanding of the target audience (gender, age, demography) will come. This information will be useful for adjusting advertising campaigns in google adwords, facebook.</string>
+    <string name="frame_2_text_26">In addition to gender and age, you can increase the rates for mobile users.</string>
+    <string name="frame_3_text_1">SEO (search engine promotion)</string>
+    <string name="frame_3_text_2">SEO (search engine promotion) is an action aimed at improving the visibility of a site in search engines. The main goal is traffic from Yandex and Google search engines.</string>
+    <string name="frame_3_text_3">Site preparation plan upon creation:</string>
+    <string name="frame_3_text_4">SEO audit</string>
+    <string name="frame_3_text_5">After creating and filling the site with content, it is recommended to perform a seo audit. For correcting h1 headers, titles, content, redirects, removing broken links, etc.</string>
+    <string name="frame_3_text_6">Tools:</string>
+    <string name="frame_3_text_8">Commercial factors</string>
+    <string name="frame_3_text_9">For commercial sites, it is important to indicate phone numbers in a prominent place on the site. Also, the presence of the page contacts with the indication of telephones, e-mail, addresses, maps.</string>
+    <string name="frame_3_text_10">How to get more traffic?</string>
+    <string name="frame_3_text_11">We create a blog (information section) and write articles on our topic. A minimum of 30 articles per month is recommended. Better 100 articles per month, you can order on the exchange - https://www.etxt.biz</string>
+    <string name="frame_3_text_12">Examples of blogs:</string>
+    <string name="frame_3_text_14">Links</string>
+    <string name="frame_3_text_15">After creating and optimizing the project, it is recommended to test it using contextual advertising for 1–2 months, then, having understood the profitable categories, the products should start working with the link mass.</string>
+    <string name="frame_3_text_16">It is better to buy links for related topics and your region, then related topics and the general region. For example: a real estate agency in New York. We buy links on all sites in New York and everything related to real estate in New York and throughout the United States.</string>
+    <string name="frame_3_text_17">To buy we use link exchanges with a one-time payment for a link:</string>
+    <string name="frame_3_text_18">It is better to use anchors (link text) like:</string>
+    <string name="frame_3_text_19">This will protect you from anchor spam in links. You can spend from $ 300 per month on links. Buying them on the main page and categories / subcategories that are profitable and are in the top 10 aisles, which brings them closer to the top 1.</string>
+    <string name="frame_3_text_20">For the pros, you can study the link mass of competitors using - https://ahrefs.com</string>
+    <string name="frame_3_text_21">Checking positions and traffic</string>
+    <string name="frame_3_text_22">Every 2 weeks you can check positions using - https://topvisor.com</string>
+    <string name="frame_4_text_1">Contextual advertising</string>
+    <string name="frame_4_text_2">Contextual advertising is ads (text, image, video) that are shown to users in accordance with their search queries, interests or behavior on the Internet. Contextual advertising is shown in search engines, on various sites, in mobile applications, etc.</string>
+    <string name="frame_4_text_3">If you are planning to launch contextual advertising in Yandex Direct or google adwords for the first time, we recommend that you contact specialized specialists.</string>
+    <string name="frame_4_text_4">You can find an artist on the sites:</string>
+    <string name="frame_4_text_5">Self-study google adwords:</string>
+    <string name="frame_4_text_6">PPC courses:</string>
+    <string name="frame_5_text_1">SMM (social media promotion)</string>
+    <string name="frame_5_text_2">List of steps to launch campaigns:</string>
+    <string name="frame_5_text_3">Instagram promotion:</string>
+    <string name="frame_5_text_4">Promotion in Facebook:</string>
+    <string name="frame_5_text_5">Useful books on the topic</string>
+    <string name="frame_6_text_1">Content marketing</string>
+    <string name="frame_6_text_2">Content marketing is the distribution of useful content that is not direct advertising, but which indirectly convinces the audience to make the necessary decision to purchase a product or service.</string>
+    <string name="frame_6_text_3">The ways of distributing information content can be very diverse: sites, blogs, social networks, books, magazines, podcasts, seminars. Valuable content should be unique and useful.</string>
+    <string name="frame_6_text_4">Content Marketing Goals</string>
+    <string name="frame_6_text_5">How to launch successful content marketing</string>
+    <string name="frame_7_text_1">Analytics</string>
+    <string name="frame_7_text_2">Web analytics is a set of tools for collecting and analyzing the behavior of visitors on the site. Based on the data, the site is improved, advertising campaigns and sales plans are changed.</string>
+    <string name="frame_7_text_3">Why do you need web analytics?</string>
+    <string name="night_mode">Night mode</string>
 
     <string-array name="content_items">
-        <item>1. Интернет-маркетинг</item>
-        <item>2. Как создать бизнес в интернете?</item>
+        <item>1. Internet Marketing</item>
+        <item>2. How to create a business on the Internet?</item>
         <item>3. SEO</item>
-        <item>4. Контекст</item>
+        <item>4. Context</item>
         <item>5. SMM</item>
-        <item>6. Контент-маркетинг</item>
-        <item>7. Аналитика</item>
+        <item>6. Content-marketing</item>
+        <item>7. Analytics</item>
     </string-array>
 </resources>

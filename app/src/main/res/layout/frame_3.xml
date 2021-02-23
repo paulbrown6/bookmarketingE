@@ -62,7 +62,10 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. Изучить структуру категорий/подкатегорий продуктов у конкурентов и использовать в своем будущем проекте. Не более 3 кликов должен быть доступ к каждой из страниц. \n2. Рекомендуется добавлять текста в 1500-2000 знаков в каждую из категорий/подкатегорий. На карточках товаров может быть не уникальный контент. \n3. Важно настроить заголовки h1 и тайтлы на основе списка запросов, при этом упоминая город. Пример заголовка h1: Радиоуправляемые машинки. Пример тайтла: Радиоуправляемые машинки в Москве купить или узнать цену. \n4. Для сайта услуг изучить структуру контента по смысловым блокам и оформление у конкурентов. Например, наличие таблиц с указанием цен, фото выполненных работ, отзывы, списки преимуществ. " />
+                android:text="1. To study the structure of categories / subcategories of products from competitors and use in your future project. No more than 3 clicks should be access to each of the pages.
+                \n2. It is recommended to add text of 1500-2000 characters to each of the categories / subcategories. Product cards may contain non-unique content.
+                \n3. It is important to customize h1 headers and titles based on the request list while mentioning the city. Example heading h1: RC Cars, Truck Tracks. Example title: RC cars, trucks in the USA to buy, free shipping.
+                \n4. For a service site, study the structure of content by semantic blocks and design from competitors. For example, the presence of tables with prices, photos of work performed, reviews, lists of benefits." />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView37"
@@ -112,19 +115,12 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://wordstat.yandex.ru - для подбора запросов. Руководство по вордстату. Для профессионалов Key Collector.  \n2. Seo screaming frog – для проверки на дубли страниц, тайтлов, отсутствие битых ссылок, настройки редиректов. Подробное руководство - https://www.youtube.com/results?search_query=Seo+screaming+frog  \n3. Перепроверка контента на уникальность – программа AntiPlagiarism.NET \n4. Проверка на мобильность - https://search.google.com/test/mobile-friendly?hl=ru \n5. Проверка на скорость загрузки - https://developers.google.com/speed/pagespeed/insights/?hl=ru  " />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView41"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:textIsSelectable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_3_text_7" />
+                android:text="1. https://ads.google.com/aw/keywordplanner/ideas/new - for selecting requests. For professionals Key Collector.
+                \n2. Seo screaming frog - to check for duplicate pages, titles, the absence of broken links, redirect settings. Detailed Guide - https://www.youtube.com/watch?v=9l8UdV3gQk4
+                \n3. Re-checking the content for uniqueness - AntiPlagiarism.NET program
+                \n4. Check for mobility - https://search.google.com/test/mobile-friendly?hl=ru
+                \n5. Check for download speed - https://developers.google.com/speed/pagespeed/insights/?hl=ru
+                \n6. After the audit, we make adjustments. We correct, if you need titles, headings, content, remove broken links, set up redirects." />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView42"
@@ -199,19 +195,10 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://mag.auto.ru  \n2. https://texterra.ru/blog  \n3. https://zaochnik.ru/blog  \n4. https://1cloud.ru/blog " />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView48"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:textIsSelectable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_3_text_13" />
+                android:text="1. https://www.leblogauto.com
+                \n2. https://blog.hubspot.com/marketing
+                \n3. https://www.sohoconcept.com/blog
+                \n4. https://www.electronics-lab.com/blog" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView49"
@@ -273,7 +260,9 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://www.miralinks.ru \n2. https://gogetlinks.net \n3. https://webartex.ru \n4. https://blogun.ru " />
+                android:text="1. https://www.miralinks.ru
+                \n2. https://gogetlinks.net
+                \n3. https://webartex.ru" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView54"
@@ -293,12 +282,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:autoLink="all"
                 android:clickable="true"
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. http://название-вашего-сайта.ru \n2. название-вашего-сайта.ru \n3. название-вашего-сайта \n4. http://название-вашего-сайта/категория " />
+                android:text="1. http://name-your-site.ru
+                \n2. name-your-site.ru
+                \n3. your-site-name
+                \n4. http://your-site-name/category" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView56"
@@ -358,28 +349,6 @@
                 android:cropToPadding="false"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/ris9" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView60"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:textIsSelectable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_3_text_23" />
-
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="match_parent"
-                android:layout_height="280dp"
-                android:layout_marginTop="10dp"
-                android:adjustViewBounds="false"
-                android:cropToPadding="false"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/ris10" />
 
         </LinearLayout>
     </ScrollView>

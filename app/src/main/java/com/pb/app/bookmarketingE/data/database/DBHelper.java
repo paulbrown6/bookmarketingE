@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final int DATABASE_VERSION = 1;
-    public static final String DATABASE_NAME = "intmark";
+    public static final String DATABASE_NAME = "digmark";
     public static final String TABLE_TYPES = "favorite";
 
     public static final String KEY_ID = "_id";

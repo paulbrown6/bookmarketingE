@@ -84,7 +84,7 @@
                 android:clickable="true"
                 android:linksClickable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. Изучаем ассортимент товаров (услуг)\n2. Цены и товары-локомотивы\n3. Дополнительные товары, сервисы\n4. Региональные представительства (например доставка по всей по всей Рф)\n5. Способы оплаты, доставка, гарантии\n6. Отзывы, как оформлены (фото, видео-отзывы, ссылки на профайлы в соц. сетях)\n7. Наличие дополнительных сервисов (калькуляторов и т.п.)\n8. Рассрочки, акции"
+                android:text="1. We study the range of goods (services)\n2. Prices and goods-locomotives\n3. Additional products, services\n4. Regional offices (for example, delivery throughout all over USA)\n5. Methods of payment, delivery, guarantees\n6. Reviews, how they are presented (photos, video reviews, links to profiles in social networks)\n7. Availability of additional services (calculators, etc.)\n8. Installments, promotions"
                 android:textIsSelectable="true"
                 tools:ignore="HardcodedText" />
 
@@ -110,14 +110,11 @@
                 android:clickable="true"
                 android:linksClickable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. Ассортимент: дома, бани, гаражи, беседки из каркаса и клееного бруса
-            \n 2. Цены на дома от 600 000 руб, товары-локомотивы обычно располагаются на первых местах в каталоге - https://www.terem-pro.ru/catalog/karkasnye Боярин: от 2 600 000 руб
-            \n 3. Дополнительные услуги: достройка и реконструкция
-            \n 4. Региональные представительства: около 15 городов
-            \n 5. Оплата наличными, картой, гарантия до 25 лет
-            \n 6. Отзывы – https://www.terem-pro.ru/about/otzyvy  Видео-отзывы - https://www.terem-pro.ru/reviews
-            \n 7. Прайс-лист на сайте, постройка дома по вашему проекту и наличие офлайн выставки объектов
-            \n 8. Наличие рассрочек и акций
+                android:text="1. Assortment: quadcopters, cars, helicopters, tanks, airplanes, robots, constructors.
+            \n2. Prices for quadcopters from $ 60, cars from $ 60
+            \n3. Regional offices: delivery throughout USA, store in NY.
+            \n4. Payment by cash, card, 1 year warranty
+            \n5. Availability of installments and promotions
             "
                 android:textIsSelectable="true"
                 tools:ignore="HardcodedText" />
@@ -137,123 +134,12 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_height="185dp"
                 android:layout_marginTop="10dp"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/ris3" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_2_text_6"
-                android:textIsSelectable="true"
-                android:textStyle="bold" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="1. Ассортимент: квадрокоптеры, машины, вертолеты, танки, самолеты, роботы, конструкторы
-\n2. Цены на квадрокоптеры от 1000 руб, машинки от 3700 руб
-\n3. Региональные представительства: доставка по всей России, магазин в Москве
-\n4. Оплата наличными, картой, гарантия 1 год
-\n5. Отзывы расположены в правом сайдбаре - https://rc-today.ru/otzyvy
-\n6. Наличие рассрочек и акций"
-                android:textIsSelectable="true" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_2_text_7"
-                android:textIsSelectable="true" />
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_marginTop="10dp"
-                android:adjustViewBounds="false"
-                android:cropToPadding="false"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/ris4" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_2_text_8"
-                android:textIsSelectable="true"
-                android:textStyle="bold" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="1. Ассортимент: маникюр, педикюр, визаж, брови \n2. Цены от 1700 руб за маникюр \n3. Региональные представительства: услуги только по Москве \n4. Оплата наличными, картой, гарантия 4 дня \n5. Много фотографий выполненных работ   "
-                android:textIsSelectable="true" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_2_text_9"
-                android:textIsSelectable="true" />
-
-            <TextView android:theme="@style/TextStyle"
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:linksClickable="true"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/frame_2_text_10"
-                android:textIsSelectable="true" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="240dp"
-                android:layout_marginTop="10dp"
-                android:adjustViewBounds="false"
-                android:cropToPadding="false"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/ris5" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView10"
@@ -301,7 +187,10 @@
                 android:clickable="true"
                 android:linksClickable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://tilda.cc/ru \n2. https://ru.wix.com \n3. https://www.insales.ru \n4. https://www.ecwid.ru"
+                android:text="1. https://wix.com
+                \n2. https://tilda.cc
+                \n3. https://www.weebly.com
+                \n4. https://www.shopify.com"
                 android:textIsSelectable="true" />
 
             <TextView android:theme="@style/TextStyle"
@@ -319,7 +208,7 @@
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="10dp"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
@@ -360,7 +249,9 @@
                 android:clickable="true"
                 android:linksClickable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. Установите на сайт яндекс метрику https://metrika.yandex.ru  \n2. Создайте цели: отправка заявки, клик в телефон и т.д. Подробное видео о настройке целей - https://www.youtube.com/watch?v=8PB8XWZ13E0  \n3. Подключите колл-треккинг для отслеживания звонков по каждому из рекламных каналов: яндекс директ, SEO, реклама в соц. сетях - https://yandex.ru/dev/metrika-calltracking/?turbo=true Или же используйте встроенный в метрику целевой звонок - https://metrika.yandex.ru/calls"
+                android:text="1. Install google analytics on the site
+                \n2. Create goals: submitting an application, clicking on the phone, etc. A detailed video on setting goals - https://www.youtube.com/watch?v=Qg5Wh-8KyiA
+                \n3. Connect call tracking to track calls for each of the advertising channels: google adwords, SEO, social advertising, networks - https://www.capterra.com/call-tracking-software"
                 android:textIsSelectable="true" />
 
             <TextView android:theme="@style/TextStyle"
@@ -378,7 +269,7 @@
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="100dp"
                 android:layout_marginTop="10dp"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
@@ -434,6 +325,16 @@
                 android:text="@string/frame_2_text_21"
                 android:textIsSelectable="true" />
 
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ris8" />
+
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
@@ -467,7 +368,9 @@
                 android:clickable="true"
                 android:linksClickable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. https://elama.ru (бесплатная настройка) \n2. https://www.fl.ru \n3. https://www.weblancer.net  "
+                android:text="1. https://elama.global (free setup)
+                \n2. https://www.upwork.com
+                \n3. https://www.freelancer.com"
                 android:textIsSelectable="true" />
 
             <TextView android:theme="@style/TextStyle"
@@ -505,16 +408,6 @@
                 android:lineSpacingMultiplier="1.2"
                 android:text="@string/frame_2_text_26"
                 android:textIsSelectable="true" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="match_parent"
-                android:layout_height="270dp"
-                android:layout_marginTop="10dp"
-                android:adjustViewBounds="false"
-                android:cropToPadding="false"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/ris8" />
 
         </LinearLayout>
     </ScrollView>

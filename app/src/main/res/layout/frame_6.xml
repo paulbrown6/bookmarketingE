@@ -73,7 +73,11 @@
             android:linksClickable="true"
             android:textIsSelectable="true"
             android:lineSpacingMultiplier="1.2"
-            android:text="1. Привлечение трафика \n2. Получение заявок, звонков \n3. Повышение вовлеченности клиентов \n4. Повышение узнаваемости бренда \n5. Повышение лояльности пользователей " />
+            android:text="1. Attracting traffic
+            \n2. Receiving applications, calls
+            \n3. Increased customer engagement
+            \n4. Increasing brand awareness
+            \n5. Increased user loyalty" />
 
         <TextView android:theme="@style/TextStyle"
             android:id="@+id/textView77"
@@ -98,108 +102,12 @@
             android:linksClickable="true"
             android:textIsSelectable="true"
             android:lineSpacingMultiplier="1.2"
-            android:text="1. Исследуйте целевую аудиторию и статьи конкурентов \n2. Напишите контент-план (частота публикаций на месяц вперед) \n3. Предоставляйте качественный контент \n4. Используйте разные типы контента \n5. Создавайте цепляющие заголовки \n6. Придерживайтесь частоты публикаций (не менее 30 статей в месяц) " />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView79"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:text="@string/frame_6_text_6"
-            android:textIsSelectable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:textStyle="bold" />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView81"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:textIsSelectable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="@string/frame_6_text_7" />
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="10dp"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:scaleType="fitStart"
-            app:srcCompat="@drawable/ris14" />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView82"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:textIsSelectable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="@string/frame_6_text_8" />
-
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="match_parent"
-            android:layout_height="260dp"
-            android:layout_marginTop="10dp"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:scaleType="fitStart"
-            app:srcCompat="@drawable/ris15" />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView83"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:textIsSelectable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="@string/frame_6_text_9" />
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="match_parent"
-            android:layout_height="360dp"
-            android:layout_marginTop="10dp"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:scaleType="fitStart"
-            app:srcCompat="@drawable/ris16" />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView84"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:textIsSelectable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="@string/frame_6_text_10" />
-
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="10dp"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:scaleType="fitStart"
-            app:srcCompat="@drawable/ris17" />
+            android:text="1. Research target audience and competitors' articles
+            \n2. Write a content plan (frequency of publications in the month ahead)
+            \n3. Provide quality content
+            \n4. Use different types of content
+            \n5. Create catchy headlines
+            \n6. Stick to the frequency of publications (at least 30 articles per month)" />
 
     </LinearLayout>
     </ScrollView>

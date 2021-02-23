@@ -48,7 +48,15 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. Составьте список задач: продажи, узнаваемость бренда \n2. В каких соц. сетях предположительно находится ваша аудитория: инстаграм, вконтакте, одноклассники \n3. Создайте профайлы в выбранных соц. сетях и минимально заполните \n4. Найдите и изучите профайлы конкурентов и изучите количество лайков, комментариев, частоты публикаций контента \n5. Определитесь с типом контента и частотой публикаций материалов \n6. Подберите темы публикаций не месяц и составьте контент-план \n7. Запустите рекламу в соц. сетях, используя аудитории конкурентов \n8. Проводите конкурсы, делитесь промо-кодами \n9. Каждые 2 недели оценивайте метрики по росту подписчиков, лайков, комментариев, активностям, использованию промо-кодов " />
+                android:text="1. Make a list of tasks: sales, brand awareness
+                \n2. In what social. networks presumably your audience is located: instagram, facebook
+                \n3. Create profiles in the selected social. networks and fill in the minimum
+                \n4. Find and study competitors' profiles and study the number of likes, comments, frequency of content posting
+                \n5. Decide on the type of content and frequency of publication of materials
+                \n6. Select topics of publications not a month and make a content plan
+                \n7. Start advertising in social. networks using competitors' audiences
+                \n8. Conduct contests, share promo codes
+                \n9. Every 2 weeks evaluate the metrics on the growth of subscribers, likes, comments, activities, use of promo codes" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView70"
@@ -72,7 +80,10 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. Нужно выбрать 1-2 тематики, заполнить профайл \n2. Сделать 10-20 публикаций \n3. Запустить конкурс с бесплатным подарком и рекламу на данную публикацию \n4. Работа с блогерами, покупка платной рекламы, проведение конкурсов, с целью роста подписчиков, лайков, комментариев, активности " />
+                android:text="1. You need to choose 1-2 topics, fill out a profile
+                \n2. Make 10-20 publications
+                \n3. Launch a contest with a free gift and advertisement for this publication
+                \n4. Working with bloggers, buying paid advertising, holding contests, with the aim of growing subscribers, likes, comments, activity" />
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -106,7 +117,11 @@
                 android:linksClickable="true"
                 android:textIsSelectable="true"
                 android:lineSpacingMultiplier="1.2"
-                android:text="1. Определение целевой аудитории; \n2. Контент-план (определение типа контента и частоты публикаций) \n3. Реклама, конкуренсы \n4. Реклама в группах, у блоггеров \n Оценка эффективности и корректировка  " />
+                android:text="1. Determination of the target audience
+                \n2. Content plan (defining the type of content and frequency of publications)
+                \n3. Advertising, competitions
+                \n4. Advertising in groups, from bloggers
+                \n5. Evaluation of effectiveness and adjustment" />
 
             <TextView android:theme="@style/TextStyle"
                 android:id="@+id/textView75"
@@ -123,7 +138,7 @@
             <ImageView
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="180dp"
                 android:layout_marginTop="10dp"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"

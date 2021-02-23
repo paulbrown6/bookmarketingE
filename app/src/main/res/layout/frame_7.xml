@@ -61,77 +61,20 @@
             android:linksClickable="true"
             android:textIsSelectable="true"
             android:lineSpacingMultiplier="1.2"
-            android:text="1. Наглядность представления информации при помощи графиков и таблиц  \n2. Снижение расходов на привлечение посетителей \n3. Автоматизация процессов \n4. Увеличение конверсии и дохода с клиента " />
+            android:text="1. Visual presentation of information using graphs and tables - https://analytics.google.com/analytics/web
+            \n2. Reducing the cost of attracting visitors
+            \n3. Process automation
+            \n4. Increase in conversion and income from the client" />
 
         <ImageView
             android:id="@+id/imageView15"
             android:layout_width="match_parent"
-            android:layout_height="210dp"
+            android:layout_height="230dp"
             android:layout_marginTop="10dp"
             android:adjustViewBounds="false"
             android:cropToPadding="false"
             android:scaleType="fitStart"
             app:srcCompat="@drawable/ris18" />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView86"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="@string/frame_7_text_4"
-            android:textIsSelectable="true"
-            android:textStyle="bold" />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView87"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:textIsSelectable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="1. Яндекс метрика – крайне полезная система веб-аналитики - https://metrika.yandex.ru  \n2. Google Analytics  - аналог яндекс метрики - https://analytics.google.com   \n3. Система сквозной аналитики - https://roistat.com/ru \n4. Колл-треккинг для отслеживания звонков по каждому из рекламных каналов: яндекс директ, SEO, реклама в соц. сетях - https://yandex.ru/dev/metrika-calltracking/?turbo=true  " />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView88"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="@string/frame_7_text_5"
-            android:textIsSelectable="true"
-            android:textStyle="bold" />
-
-        <TextView android:theme="@style/TextStyle"
-            android:id="@+id/textView89"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:autoLink="all"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:textIsSelectable="true"
-            android:lineSpacingMultiplier="1.2"
-            android:text="1. Дашборды в яндекс метрика – https://elama.ru/blog/kak-nastroit-dashbord \n2. Дашборды в google analytics – http://thisisdata.ru/blog/nastroyka " />
-
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_marginTop="10dp"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:scaleType="fitStart"
-            app:srcCompat="@drawable/ris19" />
 
     </LinearLayout>
     </ScrollView>
