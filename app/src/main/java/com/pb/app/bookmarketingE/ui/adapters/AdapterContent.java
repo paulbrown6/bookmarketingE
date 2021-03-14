@@ -51,6 +51,7 @@ public class AdapterContent extends RecyclerView.Adapter<AdapterContent.ViewHold
                 MainActivity.getActivity().getSupportActionBar().setDisplayHomeAsUpEnabled(false);
                 MainActivity.getActivity().getSupportActionBar().setDisplayShowTitleEnabled(false);
                 MainActivity.getBackButton().setVisibility(View.VISIBLE);
+                MainActivity.getActivity().playADS();
             }
         });
     }

@@ -1,15 +1,34 @@
 package com.pb.app.bookmarketingE;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.OnPaidEventListener;
+import com.google.android.gms.ads.OnUserEarnedRewardListener;
+import com.google.android.gms.ads.ResponseInfo;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.rewarded.OnAdMetadataChangedListener;
+import com.google.android.gms.ads.rewarded.RewardItem;
+import com.google.android.gms.ads.rewarded.ServerSideVerificationOptions;
+import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd;
+import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoadCallback;
 import com.google.android.material.navigation.NavigationView;
 import com.pb.app.bookmarketingE.data.database.DatabaseSQL;
 import com.pb.app.bookmarketingE.data.favorite.FavoriteEntity;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.core.view.GravityCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -19,7 +38,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.navigation.ui.NavigationUI;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity implements OnUserEarnedRewardListener {
 
     private AppBarConfiguration mAppBarConfiguration;
     private Toolbar toolbar;
@@ -32,6 +51,11 @@ public class MainActivity extends AppCompatActivity{
     private DrawerLayout drawer;
     private static MainActivity activity;
     private NavController navController;
+
+    //ADS
+    private RewardedInterstitialAd rewardedInterstitialAd;
+    private String adsTag = "ADSMobile";
+    private String adMobAppUnitId = "ca-app-pub-3940256099942544/5224354917";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +111,14 @@ public class MainActivity extends AppCompatActivity{
             }
         });
         activity = this;
+
+        //ADS
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+                loadAd();
+            }
+        });
     }
 
     @Override
@@ -165,5 +197,55 @@ public class MainActivity extends AppCompatActivity{
 
     public static MainActivity getActivity() {
         return activity;
+    }
+
+    //ADS
+    public void loadAd() {
+        RewardedInterstitialAd.load(MainActivity.this, adMobAppUnitId,
+                new AdRequest.Builder().build(),  new RewardedInterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(RewardedInterstitialAd ad) {
+                        rewardedInterstitialAd = ad;
+                        Log.i(adsTag, "onAdLoaded");
+                        rewardedInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                            @Override
+                            public void onAdFailedToShowFullScreenContent(AdError adError) {
+                                Log.e(adsTag, "onAdFailedToShowFullScreenContent" + " || " + adError.toString());
+                            }
+
+                            @Override
+                            public void onAdShowedFullScreenContent() {
+                                Log.i(adsTag, "onAdShowedFullScreenContent");
+                                rewardedInterstitialAd = null;
+                            }
+
+                            @Override
+                            public void onAdDismissedFullScreenContent() {
+                                Log.i(adsTag, "onAdDismissedFullScreenContent");
+                                rewardedInterstitialAd = null;
+                            }
+                        });
+                    }
+                    @Override
+                    public void onAdFailedToLoad(LoadAdError loadAdError) {
+                        Log.e(adsTag, "onAdFailedToLoad");
+                        Log.e(adsTag, loadAdError.getMessage() + " || " + loadAdError.toString());
+                    }
+                });
+    }
+
+    @Override
+    public void onUserEarnedReward(@NonNull RewardItem rewardItem) {
+        Log.e(adsTag, "onUserEarnedReward");
+        //Вознаграждение пользователя за рекламу
+    }
+
+    public void playADS(){
+        if (rewardedInterstitialAd != null) {
+            rewardedInterstitialAd.show(this, this);
+        } else {
+            Log.e(adsTag, "Not load");
+            loadAd();
+        }
     }
 }

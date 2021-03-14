@@ -88,4 +88,7 @@
         <item>6. Content-marketing</item>
         <item>7. Analytics</item>
     </string-array>
+
+    <string name="ads_app_pub">ca-app-pub-3188774017991247~4436530694</string>
+    <string name="ads_app_unit_id">ca-app-pub-3188774017991247/3287100556</string>
 </resources>
