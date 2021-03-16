@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bookmarketing"
+        android:hardwareAccelerated="true"
         android:name="androidx.multidex.MultiDexApplication">
         <activity android:name="com.pb.app.bookmarketingE.StartActivity">
             <intent-filter>
@@ -21,7 +22,8 @@
         <activity
             android:name="com.pb.app.bookmarketingE.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Bookmarketing.NoActionBar">
+            android:theme="@style/Theme.Bookmarketing.NoActionBar"
+            android:hardwareAccelerated="true">
         </activity>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

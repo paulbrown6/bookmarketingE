@@ -1,6 +1,5 @@
 package com.pb.app.bookmarketingE;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,18 +8,17 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.OnPaidEventListener;
 import com.google.android.gms.ads.OnUserEarnedRewardListener;
-import com.google.android.gms.ads.ResponseInfo;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.android.gms.ads.rewarded.OnAdMetadataChangedListener;
 import com.google.android.gms.ads.rewarded.RewardItem;
-import com.google.android.gms.ads.rewarded.ServerSideVerificationOptions;
 import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd;
 import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAdLoadCallback;
 import com.google.android.material.navigation.NavigationView;
@@ -28,7 +26,6 @@ import com.pb.app.bookmarketingE.data.database.DatabaseSQL;
 import com.pb.app.bookmarketingE.data.favorite.FavoriteEntity;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.core.view.GravityCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -54,8 +51,12 @@ public class MainActivity extends AppCompatActivity implements OnUserEarnedRewar
 
     //ADS
     private RewardedInterstitialAd rewardedInterstitialAd;
+    private AdView mAdView;
     private String adsTag = "ADSMobile";
-    private String adMobAppUnitId = "ca-app-pub-3940256099942544/5224354917";
+    private String adMobAppFullScreenUnitId = "ca-app-pub-3188774017991247/3287100556";  // Рабочая версия
+//    private String adMobAppFullScreenUnitId = "ca-app-pub-3940256099942544/5354046379";  // Тестовая версия
+    private String adMobAppBannerUnitId = "ca-app-pub-3188774017991247/2980806776";  // Рабочая версия
+//    private String adMobAppBannerUnitId = "ca-app-pub-3940256099942544/6300978111";  // Тестовая версия
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,11 +113,50 @@ public class MainActivity extends AppCompatActivity implements OnUserEarnedRewar
         });
         activity = this;
 
-        //ADS
+        //ADS FullScreen
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
                 loadAd();
+            }
+        });
+
+        //ADS Banner
+        mAdView = findViewById(R.id.adView);
+        mAdView.setAdUnitId(adMobAppBannerUnitId);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+            }
+
+            @Override
+            public void onAdFailedToLoad(LoadAdError adError) {
+                // Code to be executed when an ad request fails.
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when an ad opens an overlay that
+                // covers the screen.
+            }
+
+            @Override
+            public void onAdClicked() {
+                // Code to be executed when the user clicks on an ad.
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Code to be executed when the user is about to return
+                // to the app after tapping on an ad.
             }
         });
     }
@@ -201,7 +241,7 @@ public class MainActivity extends AppCompatActivity implements OnUserEarnedRewar
 
     //ADS
     public void loadAd() {
-        RewardedInterstitialAd.load(MainActivity.this, adMobAppUnitId,
+        RewardedInterstitialAd.load(MainActivity.this, adMobAppFullScreenUnitId,
                 new AdRequest.Builder().build(),  new RewardedInterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(RewardedInterstitialAd ad) {
@@ -216,13 +256,13 @@ public class MainActivity extends AppCompatActivity implements OnUserEarnedRewar
                             @Override
                             public void onAdShowedFullScreenContent() {
                                 Log.i(adsTag, "onAdShowedFullScreenContent");
-                                rewardedInterstitialAd = null;
+//                                rewardedInterstitialAd = null;
                             }
 
                             @Override
                             public void onAdDismissedFullScreenContent() {
                                 Log.i(adsTag, "onAdDismissedFullScreenContent");
-                                rewardedInterstitialAd = null;
+                                loadAd();
                             }
                         });
                     }
@@ -245,7 +285,7 @@ public class MainActivity extends AppCompatActivity implements OnUserEarnedRewar
             rewardedInterstitialAd.show(this, this);
         } else {
             Log.e(adsTag, "Not load");
-            loadAd();
+//            loadAd();
         }
     }
 }
